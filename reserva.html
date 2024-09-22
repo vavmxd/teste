@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reserva</title>
+</head>
+<body>
+    <form action="" method="post">
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+
+            <label for="nome">Nome</label> <br>
+            <input type="text" name="nome" id="nome"> <br> <br>
+
+            <label for="email">Email</label> <br>
+            <input type="email" name="email" id="email" placeholder="user@example.com"> <br> <br>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Serviços Desejados</legend>
+
+            <label><input type="checkbox" name="passagem" value="passagem">Compra de Passagem</label> <br>
+            <label><input type="checkbox" name="hospedagem" value="hospedagem">Reserva de Hospedagem</label> <br>
+            <label><input type="checkbox" name="aluguelCarro" value="aluguelCarro">Aluguel de Veículo</label> <br> <br>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Forma de Pagamento</legend>
+
+            <label><input type="radio" name="pagamento" value="cartaoCredito">Cartão de Crédito</label> <br>
+            <label><input type="radio" name="pagamento" value="creditoMilhas">Cartão de Crédito + Milhas</label> <br>
+            <label><input type="radio" name="pagamento" value="boleto">Boleto Bancário</label> <br>
+            <label><input type="radio" name="pagamento" value="pix">Pix</label> <br> <br>
+        </fieldset> <br>
+        <fieldset>
+            <legend>Escolha o prazo para pagamento:</legend>
+
+            <select name="prazoPagamento">
+                <option value="aVista" selected>Á Vista</option>
+                <option value="x3">3x Sem juros</option>
+                <option value="x5">5x Sem juros</option>
+                <option value="x10">10x Com juros</option>
+            </select>
+        </fieldset> <br>
+
+        <input type="submit" name="envio">
+    </form>
+</body>
+</html>

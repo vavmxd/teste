@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+section a:hover {
+    color: blue;
+}
+
+nav {
+    background-color: rgb(172, 227, 245);
+}
+
+nav li {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 60px;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+section {
+    margin: 4vw;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#imagem figure {
+    display: inline-block;
+}
+
+table {
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+table caption {
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: underline;
+    margin: 20px 0px 20px 0px;
+}
+
+table td {
+    padding: 10px;
+}
+
+table tr:nth-child(even) {
+    background-color: lightblue;
+}
